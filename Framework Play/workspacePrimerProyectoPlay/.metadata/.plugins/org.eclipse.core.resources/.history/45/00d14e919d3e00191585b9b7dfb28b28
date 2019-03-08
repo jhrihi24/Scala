@@ -1,0 +1,9 @@
+package actors
+
+import akka.actor.Props
+
+object HolaPersona {
+  def props = Props[HolaPersona]
+  
+  case class SaludarPersona(nombre: String)
+}

@@ -1,0 +1,67 @@
+2019-03-07 14:49:56,960  WARN [ModalContext] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:49:56,963  WARN [ModalContext] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:49:57,537  WARN [ModalContext] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:49:57,538  WARN [ModalContext] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:49:58,961  WARN [Worker-11] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:49:58,962  WARN [Worker-11] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:50:01,892  WARN [Worker-7] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:50:01,892  WARN [Worker-7] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:50:31,260  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-07 14:50:32,162  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-07 14:53:04,447  WARN [main] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:04,447  WARN [main] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:53:04,624  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:04,624  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:53:14,508  WARN [Java indexing] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:14,509  WARN [Java indexing] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:53:15,090  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:15,090  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:53:15,207  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-07 14:53:20,557  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:20,557  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:53:31,457  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:31,457  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:53:40,316  WARN [Worker-13] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:53:40,316  WARN [Worker-13] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:54:01,480  WARN [main] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:54:01,480  WARN [main] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:54:01,713  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:54:01,713  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:54:11,717  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:54:11,717  WARN [Worker-4] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:54:24,331  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:54:24,331  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:54:28,076  WARN [Worker-13] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:54:28,076  WARN [Worker-13] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:54:37,855  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:54:37,855  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:55:46,363  WARN [Worker-12] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:55:46,363  WARN [Worker-12] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:56:18,225  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:56:18,226  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 14:56:30,021  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 14:56:30,021  WARN [Worker-14] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:00:52,978  WARN [Worker-12] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:00:52,978  WARN [Worker-12] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:01:38,816  WARN [Worker-13] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:01:38,816  WARN [Worker-13] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:01:46,815  WARN [Worker-9] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:01:46,815  WARN [Worker-9] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:09:40,464  WARN [Worker-9] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:09:40,464  WARN [Worker-9] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:09:48,177  WARN [Worker-20] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:09:48,177  WARN [Worker-20] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:10:03,035  WARN [Worker-18] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:10:03,036  WARN [Worker-18] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:10:17,212  WARN [Worker-20] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:10:17,212  WARN [Worker-20] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:10:26,764  WARN [Worker-23] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:10:26,764  WARN [Worker-23] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:10:36,485  WARN [Worker-9] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:10:36,486  WARN [Worker-9] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-07 15:11:07,358  WARN [Worker-23] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-07 15:11:07,359  WARN [Worker-23] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-08 07:28:17,849  WARN [main] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-08 07:28:17,852  WARN [main] - ScalaProject - Project kafka-minefield-master runs on platform default installation.
+2019-03-08 07:28:17,860  WARN [main] - ScalaProject - Project kafka-minefield-master has platform default sourceLevel.
+2019-03-08 07:28:17,861  WARN [main] - ScalaProject - Project kafka-minefield-master runs on platform default installation.

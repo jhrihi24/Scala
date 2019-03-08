@@ -1,0 +1,9 @@
+package services
+
+trait PersonaService{
+  def obtenerTodos(): List[Persona]
+}
+
+class PersonaServiceImpl {
+  
+}

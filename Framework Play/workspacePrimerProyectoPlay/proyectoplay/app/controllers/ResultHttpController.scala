@@ -1,0 +1,25 @@
+package controllers
+
+import javax.inject._
+import play.api._
+import play.api.mvc._
+
+@Singleton
+class ResultController @Inject()(config: Configuration, cc: ControllerComponents) extends AbstractController(cc){
+  
+  def postContent= Action { implicit request: Request[AnyContent] =>
+    Ok("<h1>POST CONTENT</h1>").as("text/html");
+  }
+  
+  def postHeaders= Action { implicit request: Request[AnyContent] =>
+    Ok("Post headers!").withHeaders(
+        CACHE_CONTROL -> "max-age=3600",
+        ETAG -> "xx")
+  }
+  
+  def postCookies= Action { implicit request: Request[AnyContent] =>
+    Ok("Post Cookies")
+      .withCookies(Cookie("theme", "blue"))
+      .bakeCookies()
+  }
+}

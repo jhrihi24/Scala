@@ -1,0 +1,8 @@
+package dto
+
+import models.Persona
+
+case class Respuesta(success: Boolean, mensaje: String, data: Seq[Persona])
+object Respuesta {
+  
+}

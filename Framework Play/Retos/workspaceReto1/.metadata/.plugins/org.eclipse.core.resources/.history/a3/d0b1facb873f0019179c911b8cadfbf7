@@ -1,0 +1,34 @@
+package models
+
+import play.api.mvc._
+import javax.inject.Inject
+
+import javax.inject.Inject
+import javax.inject.Singleton
+import play.api.libs.json.JsValue
+import play.api.libs.json.Json
+import play.api.libs.json.Writes
+import play.api.mvc.BaseController
+import play.api.mvc.ControllerComponents
+import scala.collection.mutable.ListBuffer
+import scala.concurrent.ExecutionContext
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+import java.sql._
+
+import scala.concurrent.Future
+import scala.concurrent.TimeoutException
+import scala.concurrent.duration._
+
+case class Persona(id: Int, nombreCompleto: String)
+object Persona {
+  
+  implicit val personaJsonReads: Write[Persona] = (
+    (JsPath \ "nombres").write[String] and
+    (JsPath \ "apellidos").read[String] and
+    (JsPath \ "edad").read[Int] and
+    (JsPath \ "telefono").read[String] and
+    (JsPath \ "nroDocumento").read[String]
+  )(Persona.apply _)
+  
+}

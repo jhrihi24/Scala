@@ -1,0 +1,14 @@
+package controllers
+
+import javax.inject._
+
+import play.api._
+import play.api.libs.json.{Json, Writes}
+import play.api.mvc._
+
+import scala.concurrent.{ExecutionContext, Future}
+
+@Singleton
+class PersonaController @Inject()(cc: ControllerComponents, coffeeRepository: CoffeeRepository)(implicit executionContext: ExecutionContext) extends AbstractController(cc){
+  
+}

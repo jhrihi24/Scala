@@ -1,0 +1,20 @@
+package services
+
+import javax.inject._
+import scala.concurrent.Future
+import play.api.mvc.Results._
+
+import models._
+
+trait PersonaService {
+  def buscarPorId(id: Int): String
+  def buscarPorNombre(nombre: String): String
+}
+
+class PerosnaServiceImpl extends PersonaService {
+  
+  import Persona._
+   
+  
+}
+

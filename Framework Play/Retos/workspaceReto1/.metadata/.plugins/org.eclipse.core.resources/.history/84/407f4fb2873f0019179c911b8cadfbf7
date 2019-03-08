@@ -1,0 +1,18 @@
+package models
+
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+case class Persona(id: Int, nombreCompleto: String)
+object Persona {
+  
+  implicit val personaJsonReads: Write[Persona] = (
+    (JsPath \ "nombres").write[String] and
+    (JsPath \ "apellidos").read[String] and
+    (JsPath \ "edad").read[Int] and
+    (JsPath \ "telefono").read[String] and
+    (JsPath \ "nroDocumento").read[String]
+  )(Persona.apply _)
+  
+}

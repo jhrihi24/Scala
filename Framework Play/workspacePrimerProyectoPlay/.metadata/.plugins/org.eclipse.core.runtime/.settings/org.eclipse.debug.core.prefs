@@ -1,0 +1,2 @@
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.remoteJavaApplication=scala.remote.new,debug,;
+eclipse.preferences.version=1

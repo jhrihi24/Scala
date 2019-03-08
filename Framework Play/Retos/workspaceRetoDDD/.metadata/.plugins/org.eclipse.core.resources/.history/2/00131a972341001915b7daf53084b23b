@@ -1,0 +1,13 @@
+package dto
+
+import models.Persona
+
+case class Respuesta(success: Boolean, mensaje: String, data: Seq[Persona])
+object Respuesta {
+  implicit val barrioJson=  new Writes[Barrio] {
+    def writes(barrio: Barrio) = Json.obj(
+      "nombre" -> barrio.nombre,
+      "indicativo" -> barrio.indicativo
+    )
+  }    
+}

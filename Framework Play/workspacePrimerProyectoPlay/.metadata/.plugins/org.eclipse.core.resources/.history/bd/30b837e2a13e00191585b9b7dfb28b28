@@ -1,0 +1,74 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+
+#HolaMundoController
+GET		/holamundo					controllers.HolaMundoController.index
+
+#ResultsControlController
+GET 	/respuestas					controllers.ResultsControlController.result200
+
+GET		/noautorizado				controllers.ResultsControlController.result401
+
+GET		/error						controllers.ResultsControlController.result500
+
+GET		/getPdf						controllers.ResultsControlController.getPdf
+
+GET		/about      				controllers.Default.redirect(to = "https://www.playframework.com/")
+
+#RoutingController
+GET		/nombre/:name				controllers.RoutingController.resultNombre(name: String)
+
+POST	/guardar					controllers.RoutingController.guardar()
+
+PUT		/modificarTodo				controllers.RoutingController.modificarTodo()
+
+DELETE 	/eliminar					controllers.RoutingController.eliminar()
+
+PATCH	/modificarParcial			controllers.RoutingController.modificarParcial()
+
+GET		/errorHandler				controllers.RoutingController.errorExceptionHadler
+
+#ResultsControl
+POST	/postContent				controllers.ResultController.postContent
+
+POST	/postHeaders				controllers.ResultController.postHeaders
+
+POST	/postCookies				controllers.ResultController.postCookies
+
+#ActionsComposition
+GET		/loggingComposition			controllers.ActionsCompositionController.index
+
+#Future
+GET		/future						controllers.FutureController.algunFuturo
+
+#Json
+GET		/getJson					controllers.JsonController.getJson
+
+#Json HTTP
+GET		/getListJsonHttpBloquado	controllers.JsonHttpController.listPlaces
+
+GET		/getListJsonHttpFuture		controllers.JsonHttpController.listPlacesFuture
+
+POST	/guardarPlace				controllers.JsonHttpController.savePlace
+
+#Carga Archivos	
+GET		/cargarFiles				controllers.CargarFilesController.index
+
+POST	/							controllers.CargarFilesController.upload
+
+
+#WS Play
+GET		/getCarros					controllers.WsPlayController.getCarros
+
+POST	/guardarCarro				controllers.WsPlayController.guardarCarro
+
+#Uso de actores
+GET		/decirHola					controllers.UsoActoresController.decirHola(nombre)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

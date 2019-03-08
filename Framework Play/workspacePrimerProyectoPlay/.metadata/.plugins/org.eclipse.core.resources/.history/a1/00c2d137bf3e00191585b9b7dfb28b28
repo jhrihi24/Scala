@@ -1,0 +1,18 @@
+package guice
+
+import play.mvc.With
+
+trait Espanol {
+  def hablarEspanol(posible: Boolean): String
+}
+
+trait Ingles {
+  def hablarIngles(name: Boolean): String
+}
+
+class PersonaIdiomas extends Espanol with Ingles{
+  
+  def hablarEspanol(posible: Boolean) = if(posible) "Si es posible hablar español" else "No es posible hablar español"
+  def hablarIngles(posible: Boolean) = if(posible) "Si es posible hablar ingles" else "No es posible hablar ingles"
+  
+}

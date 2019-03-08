@@ -1,0 +1,34 @@
+package controllers
+
+import javax.inject._
+
+import play.api.mvc._
+import services.Calculos
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+@Singleton
+class CalculadoraController @Inject() (cc: ControllerComponents, calculos: Calculos) extends AbstractController(cc) { 
+  
+  
+  
+  
+}
+
+case class Numeros(numeros: Seq[Double], operacion: String)
+object CalculadoraController{
+  
+  implicit val carroReads: Reads[Numeros] = (
+    (JsPath \ "placa").read[String] and
+    (JsPath \ "color").read[String] 
+  )(Numeros.apply _)
+  
+   //Leer el objeto Place como JSON
+  implicit val carroeWrites: Writes[Numeros] = (
+    (JsPath \ "placa").write[String] and
+    (JsPath \ "color").write[String] and
+    (JsPath \ "modelo").write[Int]
+  )(unlift(Numeros.unapply))
+  
+}

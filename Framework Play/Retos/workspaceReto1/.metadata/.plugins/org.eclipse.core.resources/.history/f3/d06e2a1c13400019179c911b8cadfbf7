@@ -1,0 +1,29 @@
+package models
+
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+case class Persona(id: Int, nombreCompleto: String)
+object Persona {
+  
+ implicit val placeWrites: Writes[Persona] = (
+    (JsPath \ "id").write[Int] and
+    (JsPath \ "nombreCompleto").write[String]
+  )(unlift(Persona.unapply))
+  
+  
+  var list: List[Place] = {
+    List(
+      Place(
+        "Sandleford",
+        Location(51.377797, -1.318965)
+      ),
+      Place(
+        "Watership Down",
+        Location(51.235685, -1.309197)
+      )
+    )
+  }
+  
+}

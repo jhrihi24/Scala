@@ -1,0 +1,13 @@
+package services
+
+import models.Persona
+
+trait PersonaService{
+  def obtenerTodos(): List[Persona]
+}
+
+class PersonaServiceImpl {
+  
+  
+  
+}

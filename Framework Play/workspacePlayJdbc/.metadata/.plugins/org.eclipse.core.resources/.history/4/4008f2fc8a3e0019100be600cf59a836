@@ -1,0 +1,7 @@
+package controllers
+
+class CarroController {
+  
+}
+
+case class Carro(nombres: String, apellidos: String, edad: Int, telefono: String, nroDocumento: String)

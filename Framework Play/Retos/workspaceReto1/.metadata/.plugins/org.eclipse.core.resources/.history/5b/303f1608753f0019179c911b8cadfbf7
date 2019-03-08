@@ -1,0 +1,41 @@
+package controllers
+
+import javax.inject._
+
+import play.api.mvc._
+import services.Calculos
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+import scala.concurrent.ExecutionContext
+import scala.concurrent.TimeoutException
+
+@Singleton
+class CalculadoraController @Inject() (cc: ControllerComponents, calculos: Calculos)(implicit ec: ExecutionContext) extends AbstractController(cc) { 
+  
+  def validateJson[A : Reads] = parse.json.validate(
+    _.validate[A].asEither.left.map(e => BadRequest(JsError.toJson(e)))
+  )
+  
+  def calcular= Action.async(validateJson[Numeros]) { request =>
+    
+  }
+  
+}
+
+case class Numeros(numeros: Seq[Double], operacion: String)
+object CalculadoraController{
+  
+  implicit val carroReads: Reads[Numeros] = (
+    (JsPath \ "numeros").read[Seq[Double]] and
+    (JsPath \ "operacion").read[String] 
+  )(Numeros.apply _)
+  
+   //Leer el objeto Place como JSON
+  implicit val carroeWrites: Writes[Numeros] = (
+    (JsPath \ "numeros").write[Seq[Double]] and
+    (JsPath \ "operacion").write[String]
+  )(unlift(Numeros.unapply))
+  
+}

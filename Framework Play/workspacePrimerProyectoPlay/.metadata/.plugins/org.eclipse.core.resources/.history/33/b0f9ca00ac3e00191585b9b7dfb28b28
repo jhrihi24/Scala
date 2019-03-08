@@ -1,0 +1,23 @@
+package AkkaServer
+
+
+
+import javax.inject._
+import play.api._
+
+import play.api.mvc._
+import play.api.routing.sird._
+import play.core.server.AkkaHttpServer
+
+@Singleton
+class AkkaServer @Inject()(cc: ControllerComponents) extends AbstractController(cc){
+  val server = AkkaHttpServer.fromRouterWithComponents() { components =>
+    import Results._
+    import components.{ defaultActionBuilder => Action }
+    {
+      case GET(p"/hello/$to") => Action {
+        Ok(s"Hello $to")
+      }
+    }
+  }
+}

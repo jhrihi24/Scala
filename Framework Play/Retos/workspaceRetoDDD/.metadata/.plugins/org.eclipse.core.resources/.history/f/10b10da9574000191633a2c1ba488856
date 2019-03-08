@@ -1,0 +1,16 @@
+package services
+
+import javax.inject._
+
+import models.Persona
+import repository.PersonaRepository
+
+trait PersonaService{
+  def obtenerTodos(): List[Persona]
+}
+
+class PersonaServiceImpl @Inject()(personaRepository: PersonaRepository) extends PersonaService{
+  
+  def obtenerTodos() = 
+  
+}

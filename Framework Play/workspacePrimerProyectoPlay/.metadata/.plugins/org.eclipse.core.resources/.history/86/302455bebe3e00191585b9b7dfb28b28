@@ -1,0 +1,17 @@
+package guice
+
+import play.mvc.With
+
+trait Espanol {
+  def hablarEspanol(posible: Boolean): String
+}
+
+trait Ingles {
+  def hablarIngles(name: Boolean): String
+}
+
+class PersonaIdiomas extends Espanol with Ingles{
+  
+  def 
+  
+}

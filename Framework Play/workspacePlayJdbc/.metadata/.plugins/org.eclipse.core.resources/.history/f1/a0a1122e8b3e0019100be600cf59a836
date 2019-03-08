@@ -1,0 +1,10 @@
+package controllers
+
+import play.api.mvc._
+import javax.inject.Inject
+
+class CarroController {
+  
+}
+
+case class Carro(placa: String, color: String, modelo: Int)

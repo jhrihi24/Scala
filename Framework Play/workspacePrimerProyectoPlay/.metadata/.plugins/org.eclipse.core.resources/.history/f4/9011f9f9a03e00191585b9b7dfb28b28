@@ -1,0 +1,7 @@
+package modules
+
+class ActorsModule extends AbstractModule with AkkaGuiceSupport {
+  def configure = {
+    bindActor[ConfiguredActor]("configured-actor")
+  }
+}

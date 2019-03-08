@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;kafka-minefield-master/src/main/scala/Produces.scala&apos; to &apos;Producer.scala&apos;" description="Rename resource &apos;Produces.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/scala/Produces.scala" name="Producer.scala" stamp="1551988393967" updateReferences="true"/>
+</session>

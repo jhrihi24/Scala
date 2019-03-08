@@ -1,0 +1,27 @@
+<h1>Personas</h1>
+<div class="espacio-largo"></div>
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Documento</th>
+                <th scope="col">Nombres</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Fecha Nacimiento</th>
+                <th scope="col">Telefono</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let persona of personasList">
+            <tr>
+                <td>{{persona.documento}}</td>
+                <td>{{persona.nombres}}</td>
+                <td>{{persona.apellidos}}</td>                
+                <td>{{persona.fecha_nacimiento | date:'yyyy-MM-dd' }}</td>
+                <td>{{persona.telefono}}</td>
+                <td><button class="btn btn-dark tamano-btn" (click)="modificarPersona(persona)">Modificar</button></td>
+                <td><button class="btn btn-danger tamano-btn" (click)="eliminarPersona(persona);" >Eliminar</button></td>
+            </tr>
+        </tbody>
+    </table>    
+</div>

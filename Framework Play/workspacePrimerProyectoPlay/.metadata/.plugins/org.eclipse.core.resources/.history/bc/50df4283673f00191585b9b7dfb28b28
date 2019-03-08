@@ -1,0 +1,23 @@
+package controllers
+
+import org.scalatestplus.play._
+
+import scala.concurrent.Future
+
+import play.api.mvc._
+import play.api.test._
+import play.api.test.Helpers._
+
+import org.mockito.Mockito._
+
+class FutureControllerSpec extends PlaySpec with Results with MockitoSugar{
+  "Future Page#algunFuturo" should {
+    "deberia devolver un mensaje" in {
+      val mockControllerComponents= mock[ControllerComponents]
+      val controller = new FutureController()
+      val result: Future[Result] = controller.index().apply(FakeRequest())
+      val bodyText: String = contentAsString(result)
+      bodyText mustBe "El estado del futuro es: Malo"
+    }
+  }
+}

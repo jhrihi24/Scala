@@ -1,0 +1,51 @@
+package controllers
+
+import org.scalatest._
+import org.scalatestplus.play._
+
+import play.api.test._
+import play.api.test.Helpers.{ GET => GET_REQUEST, _ }
+
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+import play.api.mvc._
+import play.api.test._
+import play.api.test.Helpers._
+import play.api.inject.guice.GuiceInjectorBuilder
+import play.api.inject.bind
+
+import play.api.inject.guice.GuiceApplicationBuilder
+
+import services.Calculos
+import models.Numeros
+import org.scalatestplus.play.guice.GuiceOneAppPerSuite
+
+class CalculadoraControllerSpec extends PlaySpec with Results with GuiceOneAppPerSuite  {
+  
+  val controllerComponents = Helpers.stubControllerComponents()
+  val calculos= app.injector.instanceOf[Calculos]
+  val controller = new CalculadoraController(controllerComponents, calculos)(controllerComponents.executionContext)
+  
+    "Calculadora Page#calcular" should {
+      "deberia realizar una suma" in {      
+        val fakeRequest = FakeRequest(POST, "/json").withBody(new Numeros(Seq(2, 3, 4), "suma"))
+        val result: Future[Result] = controller.calcular().apply(fakeRequest)
+        val bodyText: String = contentAsString(result)
+        bodyText mustBe "El resultado de la operacion suma es 9.0"
+      }
+    }
+    
+    "Calculadora Page#calcular" should {
+      "deberia realizar una multiplicacion" in {      
+        val fakeRequest = FakeRequest(POST, "/json").withBody(new Numeros(Seq(2, 3, 4), "multiplicacion"))
+        val result: Future[Result] = controller.calcular().apply(fakeRequest)
+        val bodyText: String = contentAsString(result)
+        bodyText mustBe "El resultado de la operacion multiplicacion es 24.0"
+      }
+    }
+  
+}

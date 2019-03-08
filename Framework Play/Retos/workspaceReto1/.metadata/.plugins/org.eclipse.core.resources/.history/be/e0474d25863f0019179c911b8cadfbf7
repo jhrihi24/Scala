@@ -1,0 +1,13 @@
+package services
+
+import javax.inject._
+import scala.concurrent.Future
+import play.api.mvc.Results._
+
+trait PersonaService {
+  def realizarOperacion(numeros: Seq[Double], operacion: String): Future[Any]
+}
+
+class PerosnaServiceImpl extends PersonaService {
+  
+}

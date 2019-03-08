@@ -1,0 +1,8 @@
+package controllers
+
+import play.api.db._
+
+
+class JdbcController {
+  
+}

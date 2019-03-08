@@ -1,0 +1,488 @@
+2019-03-05 12:56:22,459  WARN [ModalContext] - ScalaProject - Project play-scala-starter-example-2.7.x has platform default sourceLevel.
+2019-03-05 12:56:22,462  WARN [ModalContext] - ScalaProject - Project play-scala-starter-example-2.7.x runs on platform default installation.
+2019-03-05 12:56:23,913  WARN [ModalContext] - ScalaProject - Project play-scala-starter-example-2.7.x has platform default sourceLevel.
+2019-03-05 12:56:23,913  WARN [ModalContext] - ScalaProject - Project play-scala-starter-example-2.7.x runs on platform default installation.
+2019-03-05 12:56:24,917  WARN [Worker-7] - ScalaProject - Project play-scala-starter-example-2.7.x has platform default sourceLevel.
+2019-03-05 12:56:24,918  WARN [Worker-7] - ScalaProject - Project play-scala-starter-example-2.7.x runs on platform default installation.
+2019-03-05 12:56:26,440  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-05 12:56:26,448  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-05 12:59:33,203 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,204 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,204 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,204 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,205 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,205 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,205 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,206 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,206 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,209 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,209 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,211 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,211 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 12:59:33,212 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:00:58,317 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:00:58,319 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:11:57,841  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 283
+2019-03-05 13:11:57,844  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 283
+2019-03-05 13:12:01,426  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 283
+2019-03-05 13:12:01,426  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 283
+2019-03-05 13:12:03,015  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 283
+2019-03-05 13:12:03,016  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 283
+2019-03-05 13:13:26,812 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:13:26,834 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:13:26,834 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:13:26,834 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:14:48,452 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:14:48,452 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:14:48,452 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:25:13,027  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 318
+2019-03-05 13:25:13,027  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 318
+2019-03-05 13:28:52,032  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 318
+2019-03-05 13:29:37,296 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:29:37,297 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 13:29:41,649  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-05 14:09:42,317 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:389)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:106)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:148)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:951)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:799)
+	at scala.tools.nsc.interactive.Global.$anonfun$getTypedTreeAt$1(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:318)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2734)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2691)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2588)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.$anonfun$applyOrElse$2(Parsers.scala:3145)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3139)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateStatSeq$1(Parsers.scala:3126)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3103)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateBody$1(Parsers.scala:3032)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:66)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:3039)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:3003)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$classDef$1(Parsers.scala:2866)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:326)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2852)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2824)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2811)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.$anonfun$applyOrElse$1(Parsers.scala:3095)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3095)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3285)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3277)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$compilationUnit$1(Parsers.scala:3291)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3253)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser.$anonfun$parseStartRule$1(Parsers.scala:145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$parse$1(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:344)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.$anonfun$smartParse$1(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:216)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase.$anonfun$applyPhase$1(Global.scala:426)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:419)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$3(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1541)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1541)
+	at scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:645)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$4(Global.scala:554)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$3(Global.scala:551)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:551)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-05 14:09:42,326 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:389)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:106)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:148)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:951)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:799)
+	at scala.tools.nsc.interactive.Global.scopeMembers(Global.scala:1015)
+	at scala.tools.nsc.interactive.Global.$anonfun$getScopeCompletion$2(Global.scala:972)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getScopeCompletion(Global.scala:972)
+	at scala.tools.nsc.interactive.CompilerControl$AskScopeCompletionItem.apply$mcV$sp(CompilerControl.scala:357)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:318)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2734)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2691)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2588)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.$anonfun$applyOrElse$2(Parsers.scala:3145)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3139)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateStatSeq$1(Parsers.scala:3126)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3103)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateBody$1(Parsers.scala:3032)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:66)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:3039)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.template(Parsers.scala:2969)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2999)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$classDef$1(Parsers.scala:2866)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:326)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2852)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2826)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2811)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.$anonfun$applyOrElse$1(Parsers.scala:3095)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:175)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3095)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3285)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$compilationUnit$1(Parsers.scala:3291)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3253)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser.$anonfun$parseStartRule$1(Parsers.scala:145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$parse$1(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:344)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.$anonfun$smartParse$1(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:216)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase.$anonfun$applyPhase$1(Global.scala:426)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:419)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$3(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1541)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1541)
+	at scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:645)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$4(Global.scala:554)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$3(Global.scala:551)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:551)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-05 14:09:44,475 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:389)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:106)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:148)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:951)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:799)
+	at scala.tools.nsc.interactive.Global.$anonfun$getTypedTreeAt$1(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:318)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2734)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2691)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2588)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.$anonfun$applyOrElse$2(Parsers.scala:3145)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3139)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateStatSeq$1(Parsers.scala:3126)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3103)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateBody$1(Parsers.scala:3032)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:66)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:3039)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:3003)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$classDef$1(Parsers.scala:2866)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:326)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2852)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2824)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2811)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.$anonfun$applyOrElse$1(Parsers.scala:3095)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3095)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3285)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3277)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$compilationUnit$1(Parsers.scala:3291)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3253)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser.$anonfun$parseStartRule$1(Parsers.scala:145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$parse$1(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:344)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.$anonfun$smartParse$1(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:216)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase.$anonfun$applyPhase$1(Global.scala:426)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:419)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$3(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1541)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1541)
+	at scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:645)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$4(Global.scala:554)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$3(Global.scala:551)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:551)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-05 14:09:44,478 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:389)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:106)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:148)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:951)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:799)
+	at scala.tools.nsc.interactive.Global.scopeMembers(Global.scala:1015)
+	at scala.tools.nsc.interactive.Global.$anonfun$getScopeCompletion$2(Global.scala:972)
+	at scala.tools.nsc.interactive.Global.$anonfun$respond$1(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:695)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:688)
+	at scala.tools.nsc.interactive.Global.getScopeCompletion(Global.scala:972)
+	at scala.tools.nsc.interactive.CompilerControl$AskScopeCompletionItem.apply$mcV$sp(CompilerControl.scala:357)
+	at scala.tools.nsc.interactive.Global.$anonfun$pollForWork$1(Global.scala:493)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:418)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:507)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:318)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2734)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2691)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2576)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2588)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.$anonfun$applyOrElse$2(Parsers.scala:3145)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3139)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateStatSeq$1(Parsers.scala:3126)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3103)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$templateBody$1(Parsers.scala:3032)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:66)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:3039)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.template(Parsers.scala:2969)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2999)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$classDef$1(Parsers.scala:2866)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.savingClassContextBounds(Parsers.scala:326)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.classDef(Parsers.scala:2852)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2826)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2811)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.$anonfun$applyOrElse$1(Parsers.scala:3095)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:194)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3095)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3072)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3285)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topstats$1(Parsers.scala:3277)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$compilationUnit$1(Parsers.scala:3291)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:481)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3253)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser.$anonfun$parseStartRule$1(Parsers.scala:145)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.$anonfun$parse$1(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:344)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:351)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.$anonfun$smartParse$1(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:216)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase.$anonfun$applyPhase$1(Global.scala:426)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:419)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$3(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2(Global.scala:1542)
+	at scala.tools.nsc.Global$Run.$anonfun$compileLate$2$adapted(Global.scala:1541)
+	at scala.collection.Iterator.foreach(Iterator.scala:929)
+	at scala.collection.Iterator.foreach$(Iterator.scala:929)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1417)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1541)
+	at scala.tools.nsc.interactive.Global.parseAndEnter(Global.scala:645)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$4(Global.scala:554)
+	at scala.tools.nsc.interactive.Global.$anonfun$backgroundCompile$3(Global.scala:551)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:551)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2019-03-05 14:27:19,382 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 14:27:19,383 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 14:28:22,457 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 14:28:22,457 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 14:57:38,703  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-05 15:32:25,953 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 15:32:25,953 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 15:32:25,954 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-05 15:42:42,619  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 27
+2019-03-05 15:42:43,676  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 27
+2019-03-05 15:42:47,734  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 27
+2019-03-05 15:42:48,795  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 27
+2019-03-05 15:42:49,321  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 27
+2019-03-06 08:56:22,128 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 08:56:22,129 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 08:56:22,129 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 08:58:29,357  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-06 08:58:29,357  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-06 08:58:29,357  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-06 08:58:29,359  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-06 09:12:30,745 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:12:30,745 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:12:30,745 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,570 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,570 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,570 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,570 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,570 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,571 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,571 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,571 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,571 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,571 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 09:57:18,571 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 10:33:47,166 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 11:10:59,695 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 11:10:59,695 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 11:10:59,695 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 11:11:38,937 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 11:11:38,937 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 11:11:38,937 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 12:08:24,337 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 12:08:24,337 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 12:08:24,337 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 12:08:51,702 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 12:08:51,702 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 12:08:51,703 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-06 13:40:55,359  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-06 13:48:03,318  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-06 16:19:22,228  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-06 16:19:22,240  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-06 16:20:36,330  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-07 18:34:42,243  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-07 18:34:42,269  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-08 07:26:44,623  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-08 07:26:44,659  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-08 07:26:54,826  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-08 07:42:39,512  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-08 08:02:23,628  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-08 08:02:23,664  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for play-scala-starter-example-2.7.x, setting default to 2.12.
+2019-03-08 08:02:48,525  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-08 08:02:48,737  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2019-03-08 08:02:48,832 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,853 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,854 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,854 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,854 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,855 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,856 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,856 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,856 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,856 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,856 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,856 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,857 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,857 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,861 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,861 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,862 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,870 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,870 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,870 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,870 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,870 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,871 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,872 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,872 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,875 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,876 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,877 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,878 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,878 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,878 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,878 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,880 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,880 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,880 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,880 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,880 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,881 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,881 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,881 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,881 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,882 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,883 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,883 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,883 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,883 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,883 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,884 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,885 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:48,893 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2019-03-08 08:02:57,072  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.

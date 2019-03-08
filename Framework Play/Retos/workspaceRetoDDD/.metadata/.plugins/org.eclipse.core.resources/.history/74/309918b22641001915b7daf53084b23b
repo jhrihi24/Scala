@@ -1,0 +1,58 @@
+package controllers
+
+import javax.inject._
+
+import play.api._
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+import play.api.mvc._
+import java.util.Date
+import java.sql.Date
+
+import scala.concurrent.{ExecutionContext, Future}
+
+import services.PersonaCommandService
+import models.Persona
+import dto.Respuesta
+
+@Singleton
+class PersonaCommandController @Inject()(cc: ControllerComponents, personaService: PersonaCommandService)(implicit executionContext: ExecutionContext) extends AbstractController(cc){
+    
+  def insertarPersona() = Action.async(parse.json[Persona]) { request =>
+    val persona= request.body
+    personaService.insertarPersona(persona)
+      .map{_ => 
+        val respuesta= Respuesta(true, "Persona insertada correctamente", Seq(persona))
+        Ok(Json.toJson(respuesta))
+      }
+      .recoverWith {
+        case _: Exception => Future.successful( InternalServerError("No pudo guardarse el registro") )
+      }
+  }
+  
+  def modificarPersona() = Action.async(parse.json[Persona]) { request =>
+    val persona= request.body
+    personaService.modificarPersona(persona)
+    .map{_ => 
+      val respuesta= Respuesta(true, "Persona modificada correctamente", Seq(persona))
+      Ok(Json.toJson(respuesta))
+    }
+    .recoverWith {
+        case _: Exception => Future.successful( InternalServerError("No pudo modificarse el registro") )
+    }
+  }
+    
+   def eliminarPersona(idPersona: Int) = Action.async { request =>
+    personaService.eliminarPersona(idPersona)
+      .map{_ =>
+        val fecha = new Date();
+        val persona= Persona(0, "", "", "", new java.sql.Date(fecha.getTime()), "")
+        val respuesta= Respuesta(true, "Persona modificada correctamente", Seq(persona))
+        Ok(Json.toJson(respuesta))
+      }
+      .recoverWith {
+        case _: Exception => Future.successful( InternalServerError("No pudo eliminarse el registro") )
+      }
+  }
+  
+}

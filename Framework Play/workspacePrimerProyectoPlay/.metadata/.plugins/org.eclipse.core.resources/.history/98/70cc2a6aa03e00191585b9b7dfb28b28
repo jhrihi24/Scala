@@ -1,0 +1,26 @@
+package controllers
+
+import play.api.mvc._
+import javax.inject._
+
+import scala.concurrent.duration._
+import akka.pattern.ask
+import akka.util.Timeout
+import scala.concurrent._
+
+import actors.HolaPersona._
+import actors.HolaPersona
+
+@Singleton
+class UsoActoresController  @Inject()(cc:ControllerComponents)(implicit ec: ExecutionContext) extends AbstractController(cc){
+    
+    implicit val timeout: Timeout = 5.seconds
+    implicit val holaPersona = HolaPersona
+  
+    def decirHola(nombre: String) = Action.async{
+      (holaPersona ? SaludarPersona(nombre)).mapTo[String].map{
+        mensaje => Ok(mensaje)
+      }
+    }
+  
+}

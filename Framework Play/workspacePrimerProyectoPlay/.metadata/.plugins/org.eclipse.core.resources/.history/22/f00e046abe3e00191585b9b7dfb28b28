@@ -1,0 +1,13 @@
+package guice
+
+trait Espanol {
+  def hablar(posible: Boolean): String
+}
+
+trait Ingles {
+  def hablar(name: Boolean): String
+}
+
+class PersonaIdiomas {
+  
+}

@@ -1,0 +1,77 @@
+package controllers
+
+import play.api.mvc._
+import javax.inject.Inject
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext
+import scala.concurrent.TimeoutException
+
+@Singleton
+class CarroController @Inject()(cc:ControllerComponents) (implicit ec: ExecutionContext) extends AbstractController(cc){
+  
+  def listPlacesFuture = Action.async{
+    devolverListFuture().map {pi => 
+       Ok(Json.toJson(pi)) 
+    }.recover {
+      case e: TimeoutException =>
+        InternalServerError("Calculation timed out!")
+    }
+  }
+  
+  
+  def validateJson[A : Reads] = parse.json.validate(
+    _.validate[A].asEither.left.map(e => BadRequest(JsError.toJson(e)))
+  )
+  
+  def savePlace = Action(validateJson[Place]) { request =>
+    val place = request.body
+    save(place)
+    Ok(Json.obj("status" ->"OK", "message" -> ("Place '"+place.name+"' guardado correctamente.") ))
+  }
+  
+}
+
+case class Carro(placa: String, color: String, modelo: Int)
+object Carro {
+    
+  //Escribir el objeto Place como JSON
+  implicit val carroeWrites: Writes[Carro] = (
+    (JsPath \ "placa").write[String] and
+    (JsPath \ "color").write[String] and
+    (JsPath \ "modelo").write[Int]
+  )(unlift(Carro.unapply))
+  
+  //Leer el objeto Place como JSON
+  implicit val carroReads: Reads[Carro] = (
+    (JsPath \ "placa").read[String] and
+    (JsPath \ "color").read[String] and
+    (JsPath \ "modelo").read[Int] 
+  )(Carro.apply _)
+  
+  
+  var list: List[Carro] = {
+    List(
+      Carro(
+        "CBJ57C",
+        "Rojo",
+        2001
+      ),
+      Carro(
+        "TRD85P",
+        "Azul",
+        2012
+      )
+    )
+  }
+  
+  def devolverListFuture(): Future[List[Carro]] = {
+    Future.successful(list)
+  }
+
+  def save(place: Place) = {
+    list = list ::: List(place)
+  }
+} 

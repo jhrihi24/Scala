@@ -1,0 +1,15 @@
+package controllers
+
+import play.api.mvc._
+import javax.inject._
+
+import actors.HolaPersona
+
+@Singleton
+class UsoActoresController  @Inject()(cc:ControllerComponents) extends AbstractController(cc){
+  
+    def decirHola = Action{
+      
+    }
+  
+}

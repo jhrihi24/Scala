@@ -1,0 +1,71 @@
+# https://www.playframework.com/documentation/latest/Configuration
+application.name= "Prueba Jhon"
+app="Jhompe"
+url="localhost:9000"
+
+# Se configura la posicion del control de errores
+play.http.errorHandler = "controllers.ErrorHandler"
+
+
+#Configuracion para borrar los archivos temporales.
+play.temporaryFile {
+  reaper {
+    enabled = true
+    initialDelay = "5 minutes"
+    interval = "30 seconds"
+    olderThan = "30 minutes"
+  }
+}
+
+# Habilitar la configuracion de modulos de configuracion.
+play.modules.enabled += "modules.ActorsModule"
+play.modules.enabled += "modules.GuiceModule"
+
+#Habilitar la carga de la aplicacion.
+play.application.loader = "modules.CustomApplicationLoader"
+
+play.filters.enabled += "play.filters.cors.CORSFilter"
+#Asignacion de filtros
+play.filters {
+  
+  enabled += filters.mainFilter
+
+  ## Configuración del filtro CORS
+  # https://www.playframework.com/documentation/latest/CorsFilter
+  # ~~~~~
+  # CORS es un protocolo que permite que las aplicaciones web realicen solicitudes desde el navegador.
+  # NOTA: DEBE aplicar la configuración de CORS antes del filtro CSRF, ya que CSRF tiene
+  cors {
+    # Filtra las rutas por una lista blanca de prefijos de ruta.
+    #pathPrefixes = ["/some/path", ...]
+
+    # Los orígenes permitidos. Si es nulo, todos los orígenes están permitidos.
+    #allowedOrigins = ["http://www.example.com"]
+
+    # Los métodos HTTP permitidos. Si es nulo, todos los métodos están permitidos.
+    allowedHttpMethods = ["GET", "POST"]
+  }
+
+  ## Security headers filter configuration
+  # https://www.playframework.com/documentation/latest/SecurityHeaders
+  # ~~~~~
+  # Defines security headers that prevent XSS attacks.
+  # If enabled, then all options are set to the below configuration by default:
+  headers {
+    # The X-Frame-Options header. If null, the header is not set.
+    #frameOptions = "DENY"
+
+    # The X-XSS-Protection header. If null, the header is not set.
+    #xssProtection = "1; mode=block"
+
+    # The X-Content-Type-Options header. If null, the header is not set.
+    #contentTypeOptions = "nosniff"
+
+    # The X-Permitted-Cross-Domain-Policies header. If null, the header is not set.
+    #permittedCrossDomainPolicies = "master-only"
+
+    # The Content-Security-Policy header. If null, the header is not set.
+    #contentSecurityPolicy = "default-src 'self'"
+  }
+
+}

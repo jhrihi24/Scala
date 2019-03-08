@@ -1,0 +1,5 @@
+package repository
+
+class PersonaRepository @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit executionContext: ExecutionContext) extends HasDatabaseConfigProvider[JdbcProfile]{
+  
+}

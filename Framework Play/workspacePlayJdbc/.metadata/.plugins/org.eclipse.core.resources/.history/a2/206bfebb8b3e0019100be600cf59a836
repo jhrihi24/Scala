@@ -1,0 +1,15 @@
+package controllers
+
+import play.api.mvc._
+import javax.inject.Inject
+
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext
+import scala.concurrent.TimeoutException
+
+@Singleton
+class CarroController @Inject()(cc:ControllerComponents) (implicit ec: ExecutionContext) extends AbstractController(cc){
+  
+}
+
+case class Carro(placa: String, color: String, modelo: Int)

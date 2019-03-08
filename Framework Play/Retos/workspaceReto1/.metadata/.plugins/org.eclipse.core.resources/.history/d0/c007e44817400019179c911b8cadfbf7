@@ -1,0 +1,6 @@
+package controllers
+
+@Singleton
+class PersonaController @Inject() (cc: ControllerComponents, personaService: PersonaService)(implicit ec: ExecutionContext) extends AbstractController(cc) {{
+  
+}

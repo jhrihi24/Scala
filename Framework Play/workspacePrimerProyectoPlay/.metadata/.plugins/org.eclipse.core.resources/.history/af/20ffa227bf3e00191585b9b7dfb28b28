@@ -1,0 +1,19 @@
+package modules
+
+import com.google.inject.AbstractModule
+import com.google.inject.name.Names
+
+import guice.PersonaIdiomas
+
+class GuiceModule extends AbstractModule{
+  def configure() = {
+
+    bind(classOf[])
+      .annotatedWith(Names.named("en"))
+      .to(classOf[EnglishHello])
+
+    bind(classOf[Hello])
+      .annotatedWith(Names.named("de"))
+      .to(classOf[GermanHello])
+  }
+}

@@ -1,0 +1,17 @@
+package modules
+
+import com.google.inject.AbstractModule
+import com.google.inject.name.Names
+
+import guice.Colombia
+import guice.Idioma
+
+class GuiceModule extends AbstractModule{
+  def configure() = {
+
+    bind(classOf[Idioma])
+      .annotatedWith(Names.named("en"))
+      .to(classOf[Colombia])
+    
+  }
+}

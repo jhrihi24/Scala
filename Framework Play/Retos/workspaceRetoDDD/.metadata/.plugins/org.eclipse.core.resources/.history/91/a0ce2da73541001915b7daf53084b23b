@@ -1,0 +1,48 @@
+package services
+
+import javax.inject._
+
+import models.Persona
+import repository.PersonaRepository
+import java.sql.Date
+import org.joda.time
+import java.time.LocalDate
+
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
+import scala.concurrent.{ExecutionContext, Future}
+import org.joda.time.DateTime
+import org.joda.time.Years
+
+trait PersonaCommandService{
+  def insertarPersona(persona: Persona): Future[Unit]
+  def modificarPersona(persona: Persona): Future[Unit]
+  def eliminarPersona(idPersona: Int): Future[Unit]
+}
+
+class PersonaCommandServiceImpl@Inject()(personaRepository: PersonaRepository) extends PersonaCommandService{
+  
+  def insertarPersona(persona: Persona) = personaRepository.insertarPersona(persona)
+  
+  def modificarPersona(persona: Persona) = personaRepository.modificarPersona(persona)
+  
+  def eliminarPersona(idPersona: Int) = personaRepository.eliminarPersona(idPersona)
+  
+  private def validarMayorEdad(fecha: Date): Boolean= {
+    val localDate = fecha.toLocalDate()
+    val fechaActual= new Date()
+    val inicio = new DateTime(localDate.getYear, localDate.getMonthValue, localDate.getDayOfMonth)
+    val fin = new DateTime(, 3, 1)
+    val anos = Years.yearsBetween(inicio.toLocalDate(), fin.toLocalDate())
+     
+     true
+    /*val MILLSECS_PER_DAY = 24 * 60 * 60 * 1000;
+    val hoy: java.util.Date = new java.util.Date();   
+    val diferencia: Long = ( hoy.getTime() - fecha.getTime() )/MILLSECS_PER_DAY; 
+    System.out.println(diferencia);    
+    true*/
+  }
+  
+}

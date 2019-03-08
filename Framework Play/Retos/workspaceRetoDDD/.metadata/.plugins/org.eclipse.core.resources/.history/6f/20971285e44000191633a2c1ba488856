@@ -1,0 +1,37 @@
+package repository
+
+import play.api.db.slick.{DatabaseConfigProvider, HasDatabaseConfigProvider}
+import slick.jdbc.JdbcProfile
+
+import scala.concurrent.{ExecutionContext, Future}
+
+import javax.inject.{Inject, Singleton}
+import models.Persona
+import java.sql.Date
+
+@Singleton
+class PersonaRepository @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit executionContext: ExecutionContext) extends HasDatabaseConfigProvider[JdbcProfile]{
+  
+  import profile.api._
+  
+  private val PersonasTable = TableQuery[PersonasTable]
+  
+  def obtenerTodos() : Future[Seq[Persona]] = db.run(PersonasTable.result)
+  
+  def obtenerPersona(idPersona: Int): Future[Seq[Persona]] = db.run(PersonasTable.filter(_.id === idPersona).result)
+  
+  def insertarPersona(persona: Persona): Future[Unit] = db.run(PersonasTable += persona) 
+  
+  private class PersonasTable(tag: Tag) extends Table[Persona](tag, "persona") {
+
+    def id = column[Int]("id", O.PrimaryKey)
+    def documento = column[String]("documento")
+    def nombres = column[String]("nombres")
+    def apellidos = column[String]("apellidos")
+    def fecha_nacimiento = column[Date]("fecha_nacimiento")
+    def telefono = column[String]("telefono")
+
+    def * = (id, documento, nombres, apellidos, fecha_nacimiento, telefono) <> ( (Persona.apply _).tupled, Persona.unapply)
+  }
+  
+}

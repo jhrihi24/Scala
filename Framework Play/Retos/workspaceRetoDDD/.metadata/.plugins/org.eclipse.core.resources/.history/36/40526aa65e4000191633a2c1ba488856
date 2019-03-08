@@ -1,0 +1,19 @@
+package services
+
+import javax.inject._
+
+import models.Persona
+//import repository.PersonaRepository*/
+
+import scala.concurrent.{ExecutionContext, Future}
+
+trait PersonaService{
+  //def obtenerTodos(): Future[Seq[Persona]]
+}
+
+@Singleton
+class PersonaServiceImpl /*@Inject()(personaRepository: PersonaRepository)*/ extends PersonaService{
+  
+  //def obtenerTodos() = personaRepository.obtenerTodos()
+  
+}

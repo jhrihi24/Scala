@@ -1,0 +1,18 @@
+package AkkaServer
+
+import javax.inject._
+import play.api.mvc._
+
+import play.api.routing.sird._
+import play.api.mvc._
+import play.core.server.{AkkaHttpServer, _}
+
+import play.api.routing.Router.Routes
+import play.api.routing.SimpleRouter
+
+@Singleton
+class AkkaServer extends SimpleRouter{
+  override def routes: Routes = {
+    case GET(p"/") => controller.index
+  }
+}

@@ -1,0 +1,26 @@
+package controllers
+
+import javax.inject._
+
+import play.api._
+import play.api.libs.json.{Json, Writes}
+import play.api.mvc._
+
+import scala.concurrent.{ExecutionContext, Future}
+
+import services.PersonaQueryService
+
+@Singleton
+class PersonaQueryController @Inject()(cc: ControllerComponents, personaService: PersonaQueryService)(implicit executionContext: ExecutionContext) extends AbstractController(cc){
+  
+  def obtenerTodos() = Action.async { implicit request: Request[AnyContent] =>
+    val personasFuture= personaService.obtenerTodos()
+    personasFuture.map(s => Ok(Json.toJson(s)))
+  }
+  
+  def obtenerPersona(idPersona: Int) = Action.async{ implicit request: Request[AnyContent] =>
+    val personaFuture= personaService.obtenerPersona(idPersona)
+    personaFuture.map(s=> if(s.size==1){ Ok(Json.toJson(s(0)))) } else{ NotFound("Persona no encontrada") }
+  }
+  
+}

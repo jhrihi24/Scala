@@ -1,0 +1,63 @@
+package controllers
+
+import play.api.mvc._
+import play.api.libs.ws._
+import play.api.http.HttpEntity
+
+import javax.inject.Inject
+import scala.concurrent.Future
+import scala.concurrent.duration._
+import scala.concurrent.ExecutionContext
+import scala.concurrent.TimeoutException
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+class WsPlayController @Inject() (ws: WSClient, cc: ControllerComponents) (implicit ec: ExecutionContext) extends AbstractController(cc) {
+  
+  def getCarros= Action.async {
+    val url = "http://localhost:9001/listCarro"
+    val futureResponse: Future[String] = ws.url(url).get().map {
+      response => response.body
+    }
+    
+    futureResponse.map{f=> Ok(f)}
+  }
+  
+  import Carro._
+  
+  def validateJson[A : Reads] = parse.json.validate(
+    _.validate[A].asEither.left.map(e => BadRequest(JsError.toJson(e)))
+  )
+  
+  def guardarCarro= Action.async(validateJson[Carro]) { request =>
+      
+      val carro = request.body
+      val carroJson= Json.toJson(carro)
+      val url = "http://localhost:9001/guardarCarro"
+      val respuesta : Future[JsValue] = ws.url(url).post(carroJson)
+      Ok("hola")
+  }
+  
+}
+
+case class Carro(placa: String, color: String, modelo: Int)
+object Carro {
+   
+  //Leer el objeto Place como JSON
+  implicit val carroReads: Reads[Carro] = (
+    (JsPath \ "placa").read[String] and
+    (JsPath \ "color").read[String] and
+    (JsPath \ "modelo").read[Int] 
+  )(Carro.apply _)
+  
+   //Leer el objeto Place como JSON
+  implicit val carroeWrites: Writes[Carro] = (
+    (JsPath \ "placa").write[String] and
+    (JsPath \ "color").write[String] and
+    (JsPath \ "modelo").write[Int]
+  )(unlift(Carro.unapply))
+  
+  //def devolverCarro(carro: Carro): Carro = carro
+  
+} 

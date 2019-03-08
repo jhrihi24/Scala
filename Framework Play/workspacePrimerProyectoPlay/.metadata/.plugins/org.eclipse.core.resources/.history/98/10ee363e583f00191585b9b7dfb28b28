@@ -1,0 +1,57 @@
+# https://www.playframework.com/documentation/latest/Configuration
+application.name= "Prueba Jhon"
+app="Jhompe"
+url="localhost:9000"
+
+# Se configura la posicion del control de errores
+play.http.errorHandler = "controllers.ErrorHandler"
+
+
+#Configuracion para borrar los archivos temporales.
+play.temporaryFile {
+  reaper {
+    enabled = true
+    initialDelay = "5 minutes"
+    interval = "30 seconds"
+    olderThan = "30 minutes"
+  }
+}
+
+# Habilitar la configuracion de modulos de configuracion.
+play.modules.enabled += "modules.ActorsModule"
+play.modules.enabled += "modules.GuiceModule"
+
+#Habilitar la carga de la aplicacion.
+play.application.loader = "modules.CustomApplicationLoader"
+
+
+#Asignacion de filtros
+play.filters.enabled += filters.mainFilter
+play.filters.enabled += "play.filters.cors.CORSFilter"
+play.filters.cors {
+  pathPrefixes = ["/some/path", ...]
+  allowedOrigins = ["http://www.example.com", ...]
+  allowedHttpMethods = ["GET", "POST"]
+  allowedHttpHeaders = ["Accept"]
+  preflightMaxAge = 3 days
+}
+
+  ## Configuración del filtro CORS
+  # https://www.playframework.com/documentation/latest/CorsFilter
+  # ~~~~~
+  # CORS es un protocolo que permite que las aplicaciones web realicen solicitudes desde el navegador.
+  # NOTA: DEBE aplicar la configuración de CORS antes del filtro CSRF, ya que CSRF tiene
+  cors {
+    # Filtra las rutas por una lista blanca de prefijos de ruta.
+    #pathPrefixes = ["/some/path", ...]
+
+    # Los orígenes permitidos. Si es nulo, todos los orígenes están permitidos.
+    #allowedOrigins = ["http://www.example.com"]
+
+    # Los métodos HTTP permitidos. Si es nulo, todos los métodos están permitidos.
+    allowedHttpMethods = ["GET", "POST"]
+  }
+
+  
+
+}

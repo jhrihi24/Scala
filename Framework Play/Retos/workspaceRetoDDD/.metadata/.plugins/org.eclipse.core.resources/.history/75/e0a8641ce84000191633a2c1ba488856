@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#Querys
+GET 	/obtenerTodos				controllers.PersonaQueryController.obtenerTodos()
+
+GET		/obtenerPersona/:idPersona	controllers.PersonaQueryController.obtenerPersona(idPersona: Int)
+
+#Command
+
+POST	/insertarPersona			controllers.PersonaCommandController.insertarPersona
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(file)

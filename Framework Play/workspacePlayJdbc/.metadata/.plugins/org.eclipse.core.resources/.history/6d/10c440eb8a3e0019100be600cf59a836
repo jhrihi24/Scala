@@ -1,0 +1,7 @@
+package controllers
+
+class CarroController {
+  
+}
+
+case class(placa: String, color: String, modelo: Int)

@@ -1,0 +1,9 @@
+package controllers
+
+import play.api.mvc._
+import javax.inject._
+
+@Singleton
+class UsoActoresController  @Inject()(cc:ControllerComponents) (implicit ec: ExecutionContext) extends AbstractController(cc){
+  
+}

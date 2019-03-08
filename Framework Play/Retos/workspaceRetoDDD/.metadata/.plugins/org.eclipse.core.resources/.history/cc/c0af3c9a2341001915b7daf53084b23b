@@ -1,0 +1,15 @@
+package dto
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+import models.Persona
+
+case class Respuesta(success: Boolean, mensaje: String, data: Seq[Persona])
+object Respuesta {
+  implicit val barrioJson=  new Writes[Barrio] {
+    def writes(barrio: Barrio) = Json.obj(
+      "nombre" -> barrio.nombre,
+      "indicativo" -> barrio.indicativo
+    )
+  }    
+}

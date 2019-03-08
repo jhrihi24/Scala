@@ -1,0 +1,54 @@
+package controllers
+
+import org.scalatestplus.play._
+
+import services.Calculos
+import services.AtomicCalculos
+
+import org.scalatest.AsyncFlatSpec
+import scala.concurrent.Future
+
+class CalculosSpec extends AsyncFlatSpec{
+  
+  val calculos= new AtomicCalculos()
+  
+  it should "Deberia generar una suma en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(1, 2, 3.5), "suma")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(6.5), true)
+      }    
+   } 
+  
+  it should "Deberia generar una multiplicacion en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(1, 2, 3.5), "multiplicacion")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(7), true)
+      }    
+   }
+  
+  it should "Deberia generar una division en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(10, 2), "division")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(5), true)
+      }    
+   }
+  
+  it should "Deberia generar un exponente en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(10, 3), "exponente")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(1000), true)
+      }    
+   }
+  
+  it should "Deberia generar un seno en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(45), "seno")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(0.84), true)
+      }    
+   }
+}

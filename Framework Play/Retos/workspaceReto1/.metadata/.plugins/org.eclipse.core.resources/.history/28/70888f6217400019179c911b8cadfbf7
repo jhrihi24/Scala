@@ -1,0 +1,18 @@
+package controllers
+
+import javax.inject._
+
+import play.api.mvc._
+import services.PersonaService
+
+import play.api.libs.json._
+import play.api.libs.functional.syntax._
+
+import scala.concurrent.Future
+import scala.concurrent.ExecutionContext
+import scala.concurrent.TimeoutException
+
+@Singleton
+class PersonaController @Inject() (cc: ControllerComponents, personaService: PersonaService)(implicit ec: ExecutionContext) extends AbstractController(cc) {{
+  
+}

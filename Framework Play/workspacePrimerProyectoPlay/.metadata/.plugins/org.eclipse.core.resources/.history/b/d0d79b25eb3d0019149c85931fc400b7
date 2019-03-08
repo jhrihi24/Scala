@@ -1,0 +1,55 @@
+# https://www.playframework.com/documentation/latest/Configuration
+application.name= "Prueba Jhon"
+app="Jhompe"
+url="localhost:9000"
+
+# Se configura la posicion del control de errores
+play.http.errorHandler = "controllers.ErrorHandler"
+
+
+#Configuracion para borrar los archivos temporales.
+play.temporaryFile {
+  reaper {
+    enabled = true
+    initialDelay = "5 minutes"
+    interval = "30 seconds"
+    olderThan = "30 minutes"
+  }
+}
+
+
+# Configuracion para la base de datos mysql
+db.default.driver=com.mysql.jdbc.Driver
+db.default.url="jdbc:mysql://localhost/jdbcEjemplo"
+db.default.username=root
+db.default.password=""
+db.default.logSql=true
+
+
+play.evolutions.enabled=true
+play.evolutions.autocommit=true
+
+
+#----------------------------------------------------- Conexion del CustomExecutionContext -------------------------------------------------------------------------
+#Para lograr trabajar correctamente con jdbc
+
+
+# Number of database connections
+# See https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing
+fixedConnectionPool = 9
+play.db {
+  prototype {
+    hikaricp.minimumIdle = ${fixedConnectionPool}
+    hikaricp.maximumPoolSize = ${fixedConnectionPool}
+  }
+}
+
+# Job queue sized to HikariCP connection pool
+database.dispatcher {
+  executor = "thread-pool-executor"
+  throughput = 1
+  thread-pool-executor {
+    fixed-pool-size = ${fixedConnectionPool}
+  }
+}
+

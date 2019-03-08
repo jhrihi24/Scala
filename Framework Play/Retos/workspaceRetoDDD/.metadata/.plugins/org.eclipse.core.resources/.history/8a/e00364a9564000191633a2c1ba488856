@@ -1,0 +1,25 @@
+package repository
+
+import play.api.db.slick.{DatabaseConfigProvider, HasDatabaseConfigProvider}
+import slick.jdbc.JdbcProfile
+
+import scala.concurrent.{ExecutionContext, Future}
+
+import javax.inject.{Inject, Singleton}
+
+class PersonaRepository @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit executionContext: ExecutionContext) extends HasDatabaseConfigProvider[JdbcProfile]{
+  
+  import profile.api._
+  
+  private val Personas = TableQuery[PersonasTable]
+  
+  private class PersonasTable(tag: Tag) extends Table[Persona](tag, "COFFEE") {
+
+    def name = column[String]("NAME", O.PrimaryKey)
+    def price = column[Double]("PRICE")
+    def farm = column[String]("FARM")
+
+    def * = (name, price, farm) <> ( (Coffee.apply _).tupled, Coffee.unapply)
+  }
+  
+}

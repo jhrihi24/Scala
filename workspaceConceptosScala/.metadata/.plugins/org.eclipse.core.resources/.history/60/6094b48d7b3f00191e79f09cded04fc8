@@ -1,0 +1,345 @@
+object traversables {
+  
+  //Unir un Set y un List da resultado el que se coloque primero en la union
+  val set = Set(1, 9, 10, 22)
+	val list = List(3, 4, 5, 10)
+	val result = set ++ list
+  val result2 = list ++ set
+
+
+	
+	//Utilizacion de la funcion map
+	val setMap = Set(1, 3, 4, 6)
+	val resultMap = setMap.map(_ * 4)
+	resultMap.lastOption
+	
+	
+	
+	
+	//Uso de la opcion flatten para unir listas de listas
+	val listFlatten = List(List(1), List(2, 3, 4), List(5, 6, 7), List(8, 9, 10))
+	listFlatten.flatten
+	
+	
+	
+	
+	//Uso de la opcion flatMap para unir la lista y multiplicar todos * 4
+	val listFlatMap = List(List(1), List(2, 3, 4), List(5, 6, 7), List(8, 9, 10))
+	val resultFlatMap = listFlatMap.flatMap(_.map(_ * 4))
+	resultFlatMap
+	
+	
+	
+	//Usando flatMap pero filtrando solo por algunos
+	val listFlatMapFilter = List(1, 2, 3, 4, 5)
+	val resultFlatMapFilter = listFlatMapFilter.flatMap(it ⇒ if (it % 2 == 0) Some(it) else None)
+	resultFlatMapFilter
+	
+	
+	
+	
+	
+	
+	//Uso de la funcion collect para crear una nueva lista
+	val listCollect = List(4, 6, 7, 8, 9, 13, 14)
+	val resultCollect = listCollect.collect {
+  	case x: Int if (x % 2 == 0) ⇒ x * 3
+	}
+	resultCollect
+	
+	
+	
+	
+	
+	//Uso de funciones parciales para crear nuevas collecciones
+	val listFunc = List(4, 6, 7, 8, 9, 13, 14)
+	val partialFunction1: PartialFunction[Int, Int] = {
+	  case x: Int if x % 2 == 0 ⇒ x * 3
+	}
+	val partialFunction2: PartialFunction[Int, Int] = {
+	  case y: Int if y % 2 != 0 ⇒ y * 4
+	}
+	val resultFunc = listFunc.collect(partialFunction1 orElse partialFunction2)
+	resultFunc
+	
+	
+	
+	
+	//Utilizacion del metodo foreach, este metodo no devuelve
+	val listForeach = List(4, 6, 7, 8, 9, 13, 14)
+	listForeach.foreach(num ⇒ println(num * 4))
+	listForeach
+	
+	
+	
+	
+	//Uso del tipo de dato stream lista perezosa evalua los objetos a medida que se necesiten
+	val listStream = List(4, 6, 7, 8, 9, 13, 14)
+	val resultStream = listStream.toStream
+	resultStream.isInstanceOf[Stream[_]]
+	resultStream take 3
+	
+	
+	
+	
+	//Validar si esta vacio o lleno
+	val mapLLeno = Map("Phoenix" → "Arizona", "Austin" → "Texas")
+	mapLLeno.isEmpty
+	val mapNoLleno = Map("Phoenix" → "Arizona", "Austin" → "Texas")
+	mapNoLleno.nonEmpty
+	
+	
+	
+	
+	
+	//Comprobar la longitud
+	val mapSize = Map("Phoenix" → "Arizona", "Austin" → "Texas")
+	mapSize.size
+	
+	
+	
+	
+	//Head devolvera el primer elemento
+	val listHead = List(10, 19, 45, 1, 22)
+	listHead.head
+	
+	
+	
+	
+	//HeadOption devolvera el primer elemento pero controlando si no existe
+	val listHeadOpcion = List(10, 19, 45, 1, 22)
+	listHeadOpcion.headOption
+	val list2HeadOption = List()
+	list2HeadOption.headOption
+	
+	
+	
+	
+	//Last devolvera el ultmo elemento
+	val listLast = List(10, 19, 45, 1, 22)
+	listLast.last
+	
+	
+	
+	
+	//LastOption devolvera el ultimo elemento pero controlando si no existe
+	val listLastOption = List(10, 19, 45, 1, 22)
+	listLastOption.lastOption
+	
+	val list2LastOption = List()
+	list2LastOption.lastOption
+	
+	
+	
+	
+	//Find encontrar el primer elemento que concuerde con la condicion
+	val listFind = List(10, 19, 45, 1, 22)
+	listFind.find(_ % 2 != 0)
+	
+	
+	
+	
+	//Init Devolvemos el resto de la coleccion sin el primer elemento
+	val listTail = List(10, 19, 45, 1, 22)
+	listTail.tail
+	
+	
+	
+	//Init Devolvera el resto de la coleccion Menos el ultimo
+	val listInit = List(10, 19, 45, 1, 22)
+	listInit.init
+	
+	
+		
+	//Slice parte la lista desde - hasta
+	val listSlice = List(10, 19, 45, 1, 22)
+	listSlice.slice(1, 3)
+	
+	
+	//Take devolvera el primer numero de los elementos
+	val listTake = List(10, 19, 45, 1, 22)
+	listTake.take(3)
+	
+	
+	
+	//Uso de Take y Drop en Streams
+	def streamer(v: Int): Stream[Int] = Stream.cons(v, streamer(v + 1))
+	val a = streamer(2)
+	(a take 3 toList)
+	//Drop tomara el resto de numeros que no fueron dados
+	((a drop 6) take 3).toList
+	
+	
+	
+	
+	//TakeWhile, DropWhile, Filter, FilterNOt llenara elementos que satisfaga la condicion
+	val listContinuos = List(87, 44, 5, 4, 200, 10, 39, 100)
+	listContinuos.takeWhile(_ < 100)
+	listContinuos.dropWhile(_ < 100)
+	listContinuos.filter(_ < 100)
+	listContinuos.filterNot(_ < 100)
+	
+	
+	
+	
+	/*
+	** SplitAt divide los arreglos
+	** Span divide los arreglos hasta que ya no coincide la condicion
+	** Partition divide los arreglos deacuerdo de la condicion
+	*/
+	val arraySplitSpan = Array(87, 44, 5, 4, 200, 10, 39, 100)
+	val resultSplit = arraySplitSpan splitAt 3
+	resultSplit._1
+	resultSplit._2
+	val resultSpan = arraySplitSpan span (_ < 100)
+	resultSpan._1
+	resultSpan._2
+	val resultPartition = arraySplitSpan partition  (_ < 100)
+	resultPartition._1
+	resultPartition._2
+	
+	
+	
+	
+	//Group By categorizara un arreglo deacuerdocon una funcion
+	val arrayGroup = Array(87, 44, 5, 4, 200, 10, 39, 100)
+	val oddAndSmallPartial: PartialFunction[Int, String] = {
+	  case x: Int if x % 2 != 0 && x < 100 ⇒ "Odd and less than 100"
+	}
+	val evenAndSmallPartial: PartialFunction[Int, String] = {
+	  case x: Int if x != 0 && x % 2 == 0 && x < 100 ⇒ "Even and less than 100"
+	}
+	val negativePartial: PartialFunction[Int, String] = {
+	  case x: Int if x < 0 ⇒ "Negative Number"
+	}
+	val largePartial: PartialFunction[Int, String] = {
+	  case x: Int if x > 99 ⇒ "Large Number"
+	}
+	val zeroPartial: PartialFunction[Int, String] = {
+	  case x: Int if x == 0 ⇒ "Zero"
+	}
+	val resultGroup = arrayGroup groupBy {
+	  oddAndSmallPartial orElse
+	  evenAndSmallPartial orElse
+	  negativePartial orElse
+	  largePartial orElse
+	  zeroPartial
+	}
+	(resultGroup("Even and less than 100"))
+	(resultGroup("Large Number"))
+	
+	
+	
+	
+	/*
+	**ForAll verifica si todos los miembros del arreglo cumplen con la funcion
+	**Exists verifica si algun elemento cumple con la condicion
+	**Count contrar el numero de elementos que cumplen con la condicion
+	*/
+	val listForAll = List(87, 44, 5, 4, 200, 10, 39, 100)
+	val resultForAll = listForAll forall (_ < 100)
+  val resultExists = listForAll exists (_ < 100)
+	val resultCount = listForAll count (_ < 100)
+	resultForAll
+	resultExists
+	resultCount
+	
+	
+	
+	
+	//FoldLeft lo que hace cada una de estas funciones es esta operacion (((((0 - 5) - 4) - 3) - 2) - 1)
+	val listFold = List(5, 4, 3, 2, 1)
+	val resultFold = (0 /: listFold) { (`running total`, `next element`) ⇒
+	  `running total` - `next element`
+	}
+	resultFold
+	val result2Fold = listFold.foldLeft(0) { (`running total`, `next element`) ⇒
+	  `running total` - `next element`
+	}
+	result2Fold
+	val result3Fold = (0 /: listFold)(_ - _) //Short hand
+	result3Fold
+	val result4Fold = listFold.foldLeft(0)(_ - _)
+	result4Fold
+	
+	
+	
+	
+	//FoldRigt lo que hace cada una de estas funciones es esta operacion (5 - (4 - (3 - (2 - (1 - 0)))))
+	val listFoldRigt = List(5, 4, 3, 2, 1)
+	val resultFoldRigt = (listFoldRigt :\ 0) { (`next element`, `running total`) ⇒
+	  `next element` - `running total`
+	}
+	resultFoldRigt
+	val result2FoldRigt = listFoldRigt.foldRight(0) { (`next element`, `running total`) ⇒
+	  `next element` - `running total`
+	}
+	result2FoldRigt
+	val result3FoldRigt = (listFoldRigt :\ 0)(_ - _) //Short hand
+	result3FoldRigt
+	val result4FoldRigt = listFoldRigt.foldRight(0)(_ - _)
+	result4FoldRigt
+	
+	
+	
+	//ReduceLeft lo que hace estas funciones es la siguiente operacion ((((5-4)-3)-2)-1)
+	val intList = List(5, 4, 3, 2, 1)
+	intList.reduceLeft {
+	  _ - _
+	}
+	intList.reverse.reduceLeft((x, y) => y - x)
+  val stringList = List("Do", "Re", "Me", "Fa", "So", "La", "Te", "Do")
+	stringList.reduceLeft {
+	  _ + _
+	}
+	
+	
+	//ReduceRigth hace lo mismo que FoldRigt solo que la semilla no es 0 si no el ultimo valor
+	intList.reduceRight {
+	  _ - _
+	}
+	//Este se hace para que no haya un desbordamiento
+	intList.reduceRight((x, y) => x - y)
+	stringList.reduceRight {
+	  _ + _
+	}
+	
+	
+	
+	
+	//Operaciones Matematicas sum= Suma, product= Multiplicacion, min= Elemento mas pequeño, max= Elemento mas grande
+	val listMate = List(5.5, 4, 3, 2, 1)
+	listMate.sum
+	listMate.product
+	listMate.max
+	listMate.min
+	
+	
+	
+	
+	//Transpose esta funcion agrupa diferentes listas por su posicion
+	val listTranspose = List(List(1, 2, 3), List(4, 5, 6), List(7, 8, 9))
+	listTranspose.transpose
+	val list2Transpose = List(List(1), List(4))
+	list2Transpose.transpose
+	
+	
+	
+	//Transforma la lista en un string
+	val listString = List(1, 2, 3, 4, 5)
+	listString.mkString(",")
+	listString.mkString(">", ",", "<")
+	
+	
+	
+	
+	//StringBuilder es un objeto de un string
+	val stringBuilder = new StringBuilder()
+	val listBuilder = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+	stringBuilder.append("I want all numbers 6-12: ")
+	listBuilder.filter(it ⇒ it > 5 && it < 13).addString(stringBuilder, ",")
+	stringBuilder.mkString
+		
+		
+		
+}

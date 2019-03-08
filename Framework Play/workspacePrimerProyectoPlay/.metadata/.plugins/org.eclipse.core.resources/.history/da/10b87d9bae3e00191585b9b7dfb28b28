@@ -1,0 +1,13 @@
+package controllers
+
+import javax.inject._
+import play.api.mvc._
+import play.api.routing.sird._
+import play.api.mvc._
+
+@Singleton
+class AkkaServer@Inject()(controller: ResultController) extends SimpleRouter{
+  override def routes: Routes = {
+    case GET(p"/hello/$to") => controller.postContent
+  }
+}

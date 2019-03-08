@@ -1,0 +1,24 @@
+# https://www.playframework.com/documentation/latest/Configuration
+application.name= "Prueba Jhon"
+app="Jhompe"
+url="localhost:9000"
+
+# Se configura la posicion del control de errores
+play.http.errorHandler = "controllers.ErrorHandler"
+
+
+#Configuracion para borrar los archivos temporales.
+play.temporaryFile {
+  reaper {
+    enabled = true
+    initialDelay = "5 minutes"
+    interval = "30 seconds"
+    olderThan = "30 minutes"
+  }
+}
+
+
+# Configuracion para la base de datos mysql
+slick.dbs.default.driver="slick.driver.H2Driver$"
+slick.dbs.default.db.driver="org.h2.Driver"
+slick.dbs.default.db.url="jdbc:h2:mem:play"

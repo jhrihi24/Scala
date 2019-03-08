@@ -1,0 +1,30 @@
+package controllers
+
+import org.scalatestplus.play._
+
+import services.Calculos
+import services.AtomicCalculos
+
+import org.scalatest.AsyncFlatSpec
+import scala.concurrent.Future
+
+class CalculosSpec extends AsyncFlatSpec{
+  
+  val calculos= new AtomicCalculos()
+  
+  it should "Deberia generar una suma en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(1, 2, 3.5), "suma")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(6.5), true)
+      }    
+   } 
+  
+  it should "Deberia generar una suma en el servicio" in {      
+      val resultado = calculos.realizarOperacion(Seq(1, 2, 3.5), "suma")      
+      resultado.map{f=> 
+        assert(f.isInstanceOf[Double], true)
+        assert(f.equals(6.5), true)
+      }    
+   }
+}
